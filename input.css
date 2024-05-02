@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boom-message {
+  background-color: #9123a6; /* Change to desired background color */
+  padding: 10px; /* Optional: Add padding to the message */
+  color: white;
+  text-align: center;
+  font-size: 10rem;
+  padding: 10px;
+  text-align: center;
+}

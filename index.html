@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+</head>
+
+
+<body class="flex justify-center items-center h-screen">
+    <div class="flex-col">
+        <p>Counter Value: <span id="counter">0</span></p>
+        <p id="message"></p>
+        <div class="flex p-5">
+            <button class="border w-10 h-10 bg-green-500 text-5xl text-white flex justify-center items-center"
+                id="increment">+</button>
+            <button class="border w-10 h-10 bg-red-500 text-5xl text-white flex justify-center items-center"
+                id="decrement">-</button>
+        </div>
+        <div>
+            <p>Change increment value:</p>
+            <input class="border" type="number" id="incrementValue">
+            <button class="border" id="changeIncrement">Change</button>
+        </div>
+        <div>
+            <p>Change limit:</p>
+            <input class="border" type="number" id="limitValue">
+            <button class="border" id="changeLimit">Change</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+
+</html>
